@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @font-face {
+            font-family: 'Berliana';
+            src: url('Berliana Lovely Freebies.otf');
+        }
+    </style>
+
+<!-- grainy -->
+<script src="grained.js"></script>
+
+    <!-- RED HAT TEXT FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/7f317c28d9.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+
+    <link rel="stylesheet" href="output.css">
+    <script defer src="script.js"></script>
+    <!-- <script defer src="morphing-script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Evara</title>
+
+</head>
+<body>
+
+
+
+
+        <nav class="nav-bar sticky">
+            
+                <div class="logo">
+                    <img src="Assets/Images/Logo.svg" width="117.78" height="40">
+                </div>
+                <div class="nav-menu">
+                    <a href="#studio">Studio</a>
+                    <a href="apparel">Apparel</a>
+                    <a href="stationery">Stationery</a>
+                    <a href="bags">Bags</a>
+                    <a href="sale">Sale</a>
+                </div>
+                <div class="menu-icons">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #222121;"></i></a>
+                    <a href='#'><i class="fa-regular fa-heart" style="color: #222121;"></i></a>
+                    <a href="#"><i class="fa-regular fa-user" style="color: #222121;"></i></a>
+                </div>
+            
+        </nav>
+<div class="hero">
+    <!-- GRADIENT HOME PAGE -->
+    <div class="card">
+        <!-- <svg viewBox="0 0 100% 100%" xmlns='http://www.w3.org/2000/svg' class="noise">
+            <filter id='noiseFilter'>
+                <feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='6' stitchTiles='stitch' />
+            </filter>
+
+            <rect width='100%' height='100%' preserveAspectRatio="xMidYMid meet" filter='url(#noiseFilter)' />
+        </svg> -->
+    
+        <div class="content"><br>
+            <h1 class="display">Where faith meets fashion </h1>
+            <button class="button-main">COLLECTION</button>
+        </div>
+
+    </div>
+
+
+    <div id="container2">
+        <div class="grained"></div>
+            <div class="contents">
+                <div class="gradient-bg">
+                    <svg viewBox="0 0 100vw 100vw" xmlns='http://www.w3.org/2000/svg' class="noiseBg">
+                        <filter id='noiseFilterBg'>
+                            <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
+                        </filter>
+
+                        <rect width='100%' height='100%' preserveAspectRatio="xMidYMid meet" filter='url(#noiseFilterBg)' />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svgBlur">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                                    result="goo" />
+                                <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="gradients-container">
+                        <div class="g1"></div>
+                        <div class="g2"></div>
+                        <div class="g3"></div>
+                        <div class="g4"></div>
+                        <div class="g5"></div>
+                        <div class="interactive"></div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>       
+</div>
+
+<!-- SPOTLIGHT -->
+<div class="everything">
+    <div class="title-wrapper"> 
+        
+        <div class="title-background">
+            <blink><section>
+                <div class="bg-animation">
+                    <div id="particles"></div>
+                    <div id="particles2"></div>
+                    <div id="particles3"></div>
+                </div>
+            
+
+                <div class="hover-effect">
+        <h1 class="title"><a class="item">Life can be <br>a dark place</h1></a></div>
+        </blink></section>
+        
+        </div>
+        
+        <div class="title-space"></div>
+    </div>
+
+
+    <!-- GLOWING -->
+    <div class="glowing">
+            <div class="fixed-section">
+                <h1 class="h1-2" id="guidinglight">SOMETIMES ALL YOU NEED IS A</h1><h1 class="h1-2 italic" id="guidinglight"><i>guiding light</i></h1>
+            </div>
+            
+        
+            <div class="verses">
+                <div class="verse-psalms"><lr><p class="verse">Psalms 119:105</p><p>Your word is a lamp for my feet, a light on my path.</p></div>
+                <div class="verse-john"><lr><p class="verse">John 1:5</p><p>The light shines in the darkness, and the darkness has not overcome it.</p></div>
+                <br>
+                <div class="verse-eph"><lr><p class="verse">Ephesians 5:8</p><p>For you were once darkness, but now you are light in the Lord. Live as children of light.</p></div>
+                <br><br>
+                <div class="verse-proverbs"><lr><p class="verse">Proverbs 119:230</p><p>The unfolding of your words gives light; it gives understanding to the simple.</p></div>
+                    <div class="above-verses"></div>
+
+            </div>
+
+        </div>
+</div>
+<!-- <div class="wrapper"></div> -->
+
+<!-- Morphing -->
+<!-- <div class="container-morph">
+    <div class="word">Sometimes all you need is a guiding light</div>
+    <div class="word">That's why we're here</div>
+</div> -->
+
+<div id="white-container">
+    <div class="white-section">
+        
+
+    <!-- <div class="morphWrapper"> -->
+        <div id="morphContainer">
+
+            <p id="company">We strive to share the</p>
+                <span id="text1"></span>
+                <span id="text2"></span>
+                <br>
+                 <p id="company2">of God with the world</p>
+            
+        </div>
+        
+
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+
+                    <feColorMatrix in="SourceGraphic"
+                            type="matrix"
+                            values="1 0 0 0 0
+                                    0 1 0 0 0
+                                    0 0 1 0 0
+                                    0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+       
+    </div>
+
+
+   
+
+
+</div>
+   
+    <div class="grid-container">
+        
+       
+        <div class="leftGrid">
+            
+            
+            <div class="leftText">
+                <img class="bottom-img-2" src="Assets/Images/Voucher_Presents.png" width="576px" height="400px">
+                <span><h3>Pay it forward</h3></span><lr>
+                <p class="bodyLarge">We're all about giving. With each purchase you'll receive a 15% discount voucher that you 
+                    can give to others for their first purchase.
+                </p><button id="secondaryButton">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="rightGrid">
+            
+            <div class="rightText">
+                <img class="bottom-img-2" src="Assets/Images/ES.png" width="576px" height="400px">
+            <span><h3>Become a Creator</h3></span>
+            <lr><p class="bodyLarge">With Evara Studios you can be part of the community and design your own apparel, whether it's for your own
+                personal taste or to sell it on our website.  </p>
+                <button id="secondaryButton">LEARN MORE</button>
+                </div>
+        </div>
+    </div>
+
+
+
+<div class="product-wrapper">
+
+    <div class="wrapper-columns">
+
+        <div class="product-big">
+            <img src="Assets/Images/Purpose_Product.png" width="544px" height="704 px">
+        </div>
+        <div class="product-details">
+            <div class="product-text">
+                <span><h3>Created With Purpose Sweatshirt</h3></span>
+                <p>“For we are God's handiwork, created in Christ Jesus to do good works, 
+                    which God prepared in advance for us to do.”</p><lr><p class="verse-btm">Ephesians 2:10</p>
+                    <lr><button id="secondaryButton">READ CHAPTER &#x2197;</button>
+            </div></lr>
+            
+            <div class="alternatives">
+                <p>You might also like</p>
+                <img class="bottom-img" src="Assets/Images/Spirit_Back_2.png" width="240px" height="304px">
+                <img class="bottom-img" src="Assets/Images/Risen_small.png" width="240px" height="304px">
+                <img class="bottom-img" src="Assets/Images/Purpose_Tote.png" width="240px" height="304px">
+                
+            </div>
+        </div>
+
+       
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<!-- <div class="Products-wrapper">
+    
+    <div class="Products-container">
+<div class="Products">
+
+    <div class="vp-item">sidebar</div>
+    <div class="vp-item">header</div>
+    <div class="vp-item">content</div> -->
+    <!-- <div class="vp-item">sect2</div>
+    <div class="vp-item">sect3</div> -->
+    <!-- <div class="product-item" id="aside">1</div>
+    <div class="product-item">2</div>
+    <div class="product-item">3</div>
+    <div class="product-item">4</div>
+    <div class="product-item">5</div>
+    <div class="product-item">6</div>
+    <div class="product-item">7</div>
+    <div class="product-item" id="more">8</div>
+    <div class="product-item">9</div>
+    <div class="product-item">10</div>
+    <div class="product-item">11</div>
+    <div class="product-item">12</div>
+    <div class="product-item">13</div>
+    </div> -->
+    
+</div>
+</div>
+
+
+
+    <!-- <div id="bottom-gradient">
+        <img id="bottom-gradient-img" src="Assets/Images/Gradient_bg.png">
+    </div> -->
+    <!-- <div id="bottomGradient">
+        <img id="bottomimg" src="Assets/Images/Gradient_bg.png" width="100vw" height="100vh">
+    </div> -->
+
+
+
+</body>
+</html>
